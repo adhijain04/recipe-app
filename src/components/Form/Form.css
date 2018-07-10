@@ -1,0 +1,24 @@
+#form{
+    margin: 20px  0;
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px crimson;
+    margin-right: 20px;
+
+
+}
+
+input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+input:-webkit-autofill{
+    background-color: none;
+}
